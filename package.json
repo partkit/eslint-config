@@ -1,0 +1,44 @@
+{
+  "name": "@partkit/eslint-config",
+  "version": "0.1.0",
+  "description": "ESLint config for @partkit",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "lint:fix": "eslint '**/*.js' --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/partkit/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "partkit",
+    "typescript",
+    "styleguide"
+  ],
+  "author": "Alexander Wende",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/partkit/eslint-config/issues"
+  },
+  "homepage": "https://github.com/partkit/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^3.9.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "eslint": "^7.7.0",
+    "eslint-plugin-import": "^2.22.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.9.1",
+    "eslint": "^7.7.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}

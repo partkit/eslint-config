@@ -1,0 +1,93 @@
+{
+  "root": true,
+  "env": {
+    "node": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "rules": {
+    "array-bracket-newline": "error",
+    "array-bracket-spacing": "error",
+    "arrow-spacing": "error",
+    "block-spacing": "error",
+    "brace-style": [
+      "error",
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "comma-dangle": [
+      "error",
+      "always-multiline"
+    ],
+    "comma-spacing": "error",
+    "comma-style": "error",
+    "func-call-spacing": [
+      "error",
+      "never"
+    ],
+    "function-call-argument-newline": [
+      "error",
+      "consistent"
+    ],
+    "function-paren-newline": "error",
+    "indent": [
+      "error",
+      4
+    ],
+    "key-spacing": "error",
+    "keyword-spacing": "error",
+    "linebreak-style": "error",
+    "lines-between-class-members": "error",
+    "no-multi-spaces": "error",
+    "no-new-wrappers": "error",
+    "no-useless-constructor": "error",
+    "no-var": "error",
+    "object-curly-newline": "error",
+    "object-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "object-property-newline": [
+      "error",
+      {
+        "allowAllPropertiesOnSameLine": true
+      }
+    ],
+    "object-shorthand": "error",
+    "operator-linebreak": [
+      "error",
+      "before"
+    ],
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "rest-spread-spacing": "error",
+    "semi": "error",
+    "sort-imports": "error",
+    "space-before-blocks": "error",
+    "space-before-function-paren": "error",
+    "space-in-parens": "error",
+    "space-infix-ops": "error",
+    "space-unary-ops": [
+      "error",
+      {
+        "words": true,
+        "nonwords": false
+      }
+    ],
+    "spaced-comment": "error",
+    "template-curly-spacing": [
+      "error",
+      "always"
+    ],
+    "template-tag-spacing": "error"
+  }
+}
