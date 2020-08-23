@@ -12,7 +12,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "commit": "npx git-cz",
     "release": "npx standard-version --commit-all",
-    "release:dry": "npm run release -- --dry-run"
+    "release:dry": "npm run release -- --dry-run",
+    "release:publish": "git push --follow-tags origin master && npm publish"
   },
   "repository": {
     "type": "git",
