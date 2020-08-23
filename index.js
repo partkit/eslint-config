@@ -133,5 +133,6 @@ module.exports = {
         '@typescript-eslint/semi': ['error'],
         'space-before-function-paren': 'off',
         '@typescript-eslint/space-before-function-paren': ['error'],
+        '@typescript-eslint/type-annotation-spacing': ['error'],
     },
 };
