@@ -54,7 +54,6 @@ module.exports = {
             'before',
         ],
         'rest-spread-spacing': 'error',
-        'sort-imports': 'error',
         'space-before-blocks': 'error',
         'space-in-parens': 'error',
         'space-infix-ops': 'error',
@@ -75,6 +74,7 @@ module.exports = {
         /**
          * eslint-plugin-import rules
          */
+        'sort-imports': 'off',
         'import/first': 'error',
         'import/newline-after-import': 'error',
         'import/no-cycle': 'error',
