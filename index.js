@@ -18,7 +18,10 @@ module.exports = {
         /**
          * eslint rules
          */
-        'array-bracket-newline': 'error',
+        'array-bracket-newline': [
+            'error',
+            'consistent',
+        ],
         'array-bracket-spacing': 'error',
         'arrow-spacing': 'error',
         'block-spacing': 'error',
@@ -31,7 +34,10 @@ module.exports = {
             'error',
             'consistent',
         ],
-        'function-paren-newline': 'error',
+        'function-paren-newline': [
+            'error',
+            'multiline-arguments',
+        ],
         'key-spacing': 'error',
         'linebreak-style': 'error',
         'no-multi-spaces': 'error',
