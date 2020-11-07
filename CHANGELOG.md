@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/partkit/eslint-config/compare/v0.1.2...v0.1.3) (2020-11-07)
+
+
+### Bug Fixes
+
+* update rules for array-bracket-newline, function-paren-newline ([4d8303a](https://github.com/partkit/eslint-config/commit/4d8303a15a054c391858bb61ece41c02388c0e5e))
+
 ### [0.1.2](https://github.com/partkit/eslint-config/compare/v0.1.1...v0.1.2) (2020-10-13)
 
 
