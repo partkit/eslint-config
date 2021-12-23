@@ -33,19 +33,19 @@
   },
   "homepage": "https://github.com/partkit/eslint-config#readme",
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.4.1",
-    "@typescript-eslint/parser": "^4.4.1"
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0"
   },
   "devDependencies": {
-    "commitizen": "^4.2.1",
+    "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.11.0",
-    "eslint-plugin-import": "^2.22.1",
-    "standard-version": "^9.0.0"
+    "eslint": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3",
+    "standard-version": "^9.3.2"
   },
   "peerDependencies": {
-    "eslint": "^7.11.0",
-    "eslint-plugin-import": "^2.22.1"
+    "eslint": "^8.5.0",
+    "eslint-plugin-import": "^2.25.3"
   },
   "config": {
     "commitizen": {
