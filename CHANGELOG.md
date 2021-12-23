@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/partkit/eslint-config/compare/v0.1.3...v0.2.0) (2021-12-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* update eslint and @typescript-eslint packages to next major version
+
+* update dependencies ([f614671](https://github.com/partkit/eslint-config/commit/f6146711fb59d8af8e497efd00a0e22859f69d82))
+
 ### [0.1.3](https://github.com/partkit/eslint-config/compare/v0.1.2...v0.1.3) (2020-11-07)
 
 
