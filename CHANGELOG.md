@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.2.1](https://github.com/partkit/eslint-config/compare/v0.2.0...v0.2.1) (2021-12-26)
+
+
+### Bug Fixes
+
+* restore switch case indentation after eslint 8.0.0 update ([aeaae58](https://github.com/partkit/eslint-config/commit/aeaae584641beb544227c985e5e76bf808e336ca))
+
 ## [0.2.0](https://github.com/partkit/eslint-config/compare/v0.1.3...v0.2.0) (2021-12-23)
 
 
