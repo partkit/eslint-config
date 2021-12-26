@@ -123,6 +123,9 @@ module.exports = {
         '@typescript-eslint/indent': [
             'error',
             4,
+            {
+                SwitchCase: 1,
+            },
         ],
         'keyword-spacing': 'off',
         '@typescript-eslint/keyword-spacing': 'error',
