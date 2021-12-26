@@ -86,6 +86,7 @@ When using decorators in TypeScript the `@typescript-eslint/indent` rule will st
       "error",
       4,
       {
+        "SwitchCase": 1,
         "ignoredNodes": [
           "PropertyDefinition"
         ]
